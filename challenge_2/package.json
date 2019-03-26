@@ -1,0 +1,33 @@
+{
+  "name": "challenge_2",
+  "version": "1.0.0",
+  "description": "hi",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build": "webpack -d -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "chart.js": "^2.8.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "safe-json-stringify": "^1.2.0"
+  }
+}
